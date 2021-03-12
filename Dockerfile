@@ -2,9 +2,10 @@
 # mcr.microsoft.com/windows
 # IoT: docker pull mcr.microsoft.com/windows/iotcore
 # Nano: docker pull mcr.microsoft.com/windows/nanoserver:1903
+# Nano IIS: docker pull nanoserver/iis
 # Core: docker pull mcr.microsoft.com/windows/servercore:ltsc2019
 
-FROM mcr.microsoft.com/windows/nanoserver:1903
+FROM nanoserver/iis
 LABEL maintainer="JuliBCN <julibcn@gmail.com>"
 
 # Uses dism.exe to install the IIS role.
