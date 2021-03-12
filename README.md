@@ -34,7 +34,11 @@ Get SH>IT Done Carrousel - Docker App (2021)
 ## Run, Test & Stop the Docker container
 > docker run -it -d -p 80:80 get-sh-it-done-win
 
+(Windows System)
 > Invoke-RestMethod -Uri http://localhost -Method Get
+
+(Linux System)
+> curl -L http://localhost
 
 > docker ps
 
