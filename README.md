@@ -79,9 +79,9 @@ Like:
 
 
 ## Run the image from DockerHub
-> docker run -d -p 80:80 julibcn/get-sh-it-done-win:latest
+> docker run -it -d -p 80:80 julibcn/get-sh-it-done-win:latest
 
 
 
 ## Run the image from GitHub Packages
-> docker run -d -p 80:80 ghcr.io/juli-bcn/get-sh-it-done-win:latest
+> docker run -it -d -p 80:80 ghcr.io/juli-bcn/get-sh-it-done-win:latest
