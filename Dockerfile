@@ -4,7 +4,7 @@
 # Nano: docker pull mcr.microsoft.com/windows/nanoserver
 # Core: docker pull mcr.microsoft.com/windows/servercore
 
-FROM mcr.microsoft.com/windows/nanoserver
+FROM mcr.microsoft.com/windows/nanoserver:20H2
 LABEL maintainer="JuliBCN <julibcn@gmail.com>"
 
 # Uses dism.exe to install the IIS role.
